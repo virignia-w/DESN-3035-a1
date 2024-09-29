@@ -1,0 +1,114 @@
+
+.NavBar{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    marker: none; 
+    background-color: rgb(250, 168, 80);
+    height: 60px;   
+    margin-top: 0%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    text-decoration-line: none;
+    color: rgb(101, 13, 13);
+    align-content: center;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+h1{
+    font-size: 2rem;
+    color: chocolate;
+
+}
+
+.ProdouctCard{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0%;
+}
+.TeamDog{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ProductImage{
+    position: relative;
+    width: 100%;
+}
+.CatImage img{
+    position: relative;
+    width: 30%;
+}
+
+.DogImage img{
+    position: relative;
+    width: 30%;
+}
+.OtherImage img{
+    position: relative;
+    width: 30%;
+}
+
+
+.Description{
+    margin: auto;
+    width: 80%;
+    text-align: center
+}
+
+.CardHeader{
+    font-size: 1.5rem;
+    color: coral;
+    
+}
+h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color:rgb(169, 117, 5)
+}
+
+
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(254, 208, 159);
+    margin-top: 1rem;
+    
+}
+.footer p{
+    margin-top:-10rem;
+    font-size: 14px;
+}
+#CopyRight{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-size: 14px;
+}
+
+.contact{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+.Phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
