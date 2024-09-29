@@ -1,3 +1,6 @@
+:root{
+    background-color: rgb(253, 245, 216);
+}
 
 .NavBar{
     display: flex;
@@ -53,15 +56,21 @@ h1{
 .CatImage img{
     position: relative;
     width: 30%;
+    height: 200px;
+    object-fit:cover;
 }
 
 .DogImage img{
     position: relative;
     width: 30%;
+    height: 200px;
+    object-fit: cover;
 }
 .OtherImage img{
     position: relative;
     width: 30%;
+    height: 200px;
+    object-fit: cover;
 }
 
 
@@ -107,8 +116,6 @@ h4{
     margin: 2rem;
     margin-bottom: 1rem;
 }
-.Phone{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.Phone a{
+    text-align: center;
 }
