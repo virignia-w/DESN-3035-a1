@@ -30,11 +30,11 @@ body{
 h1{
     font-size: 2rem;
     color: chocolate;
-
+    text-align: center;
 }
 
 .ProdouctCard{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,22 +55,33 @@ h1{
 }
 .CatImage img{
     position: relative;
-    width: 30%;
+    width: 33%;
     height: 200px;
     object-fit:cover;
+}
+.CatImage{
+    display: flex;
+}
+
+.DogImage
+{
+    display: flex;
 }
 
 .DogImage img{
     position: relative;
-    width: 30%;
+    width: 33%;
     height: 200px;
     object-fit: cover;
 }
 .OtherImage img{
     position: relative;
-    width: 30%;
+    width: 33%;
     height: 200px;
     object-fit: cover;
+}
+.OtherImage{
+    display: flex;
 }
 
 
@@ -103,6 +114,7 @@ h4{
     margin-top:-10rem;
     font-size: 14px;
 }
+
 #CopyRight{
     display: flex;
     justify-content: center;
@@ -116,6 +128,20 @@ h4{
     margin: 2rem;
     margin-bottom: 1rem;
 }
-.Phone a{
-    text-align: center;
+.Phonecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.Emailcontainer{
+    isplay: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact{
+    display:flex;
+    justify-content: center;
 }
